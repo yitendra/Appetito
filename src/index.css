@@ -12,3 +12,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.orange{
+  background: orange;
+  border: 1px soliid orange;
+}
+
+/* NAVBAR CSS */
+.navbar-default{
+  background-color:rgba(255, 153, 0, 0.808);
+}
+.navbar-default:hover{
+  background-color:rgba(255, 153, 0, 1);
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color:wheat;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color:white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  background-color: wheat;
+}
+
+.navbar-default .navbar-brand{
+  color:white;
+  text-decoration: bold;
+  font-size: 40px;
+  font-family: monospace;
+}
+.frontpic{
+  width:100%;
+  margin-top:-20px;
+}
+
