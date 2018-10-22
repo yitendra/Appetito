@@ -15,7 +15,7 @@ class App extends Component {
           <Navbar />
           <div id="maincontainer">
             <Route exact path='/' component={Home} />
-            <Route path='/contact' component={ContactUs} />
+            <Route path='/ContactUs' component={ContactUs} />
           </div>
         </header>
 

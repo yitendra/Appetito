@@ -4,10 +4,9 @@ class Home extends Component {
     render(){
         return(
             <div className="Home">
-                <div className="containers">
+                <div className="container foodsearch">
                     <input type="search" name="foodsearch" id="foodsearch"/>
                 </div>
-                traskjflkdjajklfj
                 <img src="https://www.franchiseindia.com/uploads/content/ri/art/fast-food2-dcb7a38ba6.jpg" alt="Here" className="frontpic"/>
                 <div className="lorem">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, praesentium vel a est ab aperiam voluptatum laborum tempora ipsam necessitatibus placeat asperiores cupiditate accusamus dolore harum fugiat nemo saepe. Voluptatem.
