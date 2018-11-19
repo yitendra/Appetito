@@ -13,57 +13,48 @@ code {
     monospace;
 }
 
+
+/* NAVBAR BOOTSTRAP 4 START */
 .orange{
-  background: orange;
-  border: 1px soliid orange;
+  background: rgba(255, 166, 0, 0.795);
+}
+.orange:hover{
+  background: rgba(255, 166, 0, 0.897);
 }
 
-/* NAVBAR START*/
-.navbar-default{
-  background-color:rgba(255, 153, 0, 0.808);
-}
-.navbar-default:hover{
-  background-color:rgba(255, 153, 0, 1);
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-  background-color:wheat;
-}
+/* NAVBAR BOOTSTRAP 4 */
 
-.navbar-default .navbar-nav>li>a{
-  color:white;
-}
-.navbar-default .navbar-nav>li>a:hover{
-  background-color: wheat;
-}
-
-.navbar-default .navbar-brand{
-  color:white;
-  text-decoration: bold;
-  font-size: 40px;
-  font-family: monospace;
-}
 .frontpic{
   width:100%;
   margin-top:-20px;
 }
 
-/* NAVBAR END */
-
 /* SEARCH BOX START*/
 .foodsearch{
     z-index: 2;
     width:100%;
-    margin-top:20%;
+    margin-top:15%;
     position: absolute;
 }
-.input-group-addon{
-  position: relative;
-  z-index: 3;
-  left:-30px;
+
+.nav-option{
+  font-size: 1.1em;
+  padding:100% 5px 100% 5px;
 }
+.nav-option:hover{
+  font-weight: bold;
+  background: rgb(252, 78, 48);
+}
+
 
 #foodsearch{
   position: relative;
   margin:0 auto;
 }
 
+/* For screen size of hamburger menu appearance */
+@media screen and (max-width: 992px) {
+  .nav-option{
+    padding: 5px;
+  }
+}

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import wallpaper from '../wallpaper.png';
+// import wallpaper from '../wallpaper.png';
 
 class ContactUs extends Component {
     render(){
         return(
             <div id="ContactUs">
-                <img src={wallpaper} alt="Wallpaper"/>
                 <div className="lorem">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi inventore voluptate eos esse, blanditiis minus corrupti ipsum at officia quidem iusto. Illum assumenda accusantium praesentium repellendus, officiis iusto veritatis recusandae?
                     Tempore nam dolores nulla excepturi quas officia a doloribus recusandae quam labore? Ipsa accusantium magnam ducimus, nulla iste voluptatibus id libero temporibus est, in ratione, fugiat excepturi. Veniam, rem fugiat.

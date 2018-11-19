@@ -5,10 +5,16 @@ class Home extends Component {
         return(
             <div className="Home">
                 <div className="foodsearch">
-                    <div className="container input-group">
-                        <input type="search" name="foodsearch" id="foodsearch" class="form-control" placeholder="Search Here..."/>
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span> 
+                    <div className="container input-group" style={{width:"60%"}}>
+                            <input className="form-control" id="foodsearch" type="text" placeholder="Search Here..."></input>
+                            <button className="btn btn-success" type="submit">Search</button>
                     </div>
+                        <div className="m-auto bg-light list-group" style={{width:"55%"}}>
+                            <a className="list-group-item list-group-item-action py-2" href="#list-item-1">Item 1</a>
+                            <a className="list-group-item list-group-item-action py-2" href="#list-item-2">Item 2</a>
+                            <a className="list-group-item list-group-item-action py-2" href="#list-item-3">Item 3</a>
+                            <a className="list-group-item list-group-item-action py-2" href="#list-item-4">Item 4</a>
+                        </div>
                 </div>
                 <img src="https://www.franchiseindia.com/uploads/content/ri/art/fast-food2-dcb7a38ba6.jpg" alt="Here" className="frontpic"/>
                 <div className="lorem">
